@@ -11,12 +11,13 @@
 }
 
 #body{
-    max-width: 1078px;
+    max-width: 2560px;
+    position: relative;
 }
 
 #nav-wrapper{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -35,7 +36,7 @@ nav>div>h2{
     font-family: sans-serif;
 }
 
-p{
+p, button{
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -45,7 +46,7 @@ p{
 
 .main-content{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .main-divs,.main-sections{
@@ -64,7 +65,7 @@ p{
 }
 
 .main-headers{
-    background-color: #878693;
+    background-image: linear-gradient(#bab9bd,#878593, #bab9bd);
     font-weight: bolder;
     font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -72,9 +73,18 @@ p{
     padding: 5px;
 }
 
+#about{
+    height: 282px;
+    width: 485px;
+}
+
 .main-body,.main-tech{
-    background-color: white;
+    background-image: linear-gradient( to left,#dacbd9, white);
     padding: 10px;
+}
+
+#footer-main{
+
 }
 
 .port-pics{
@@ -88,12 +98,30 @@ p{
 }
 
 li{
-    display: inline-block;
+    display: inline-flex;
     margin-right: 1rem;
 }
 
 .icons{
     width: 40px;
+}
+
+#button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient( to left,#dacbd9, white);
+    padding: 5px;
+}
+
+button{
+    background-color: green;
+    width: fit-content;
+    color: white;
+    border: black;
+    border-style: solid;
+    border-width: 0.1rem;
+    padding: 2px;
 }
 
 #footer-wrapper{
@@ -103,8 +131,10 @@ li{
 .footer-header{
     display: flex;
     justify-content: center;
+    padding: 0.2rem;
 }
 
 .footer-icons{
     width: 20px;
+    margin-right: 5px;
 }
