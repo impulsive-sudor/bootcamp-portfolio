@@ -29,6 +29,7 @@
 nav>div>h1{
     font-size: x-large;
     font-family: cursive;
+    margin-right: 620px;
 }
 
 nav>div>h2{
@@ -38,6 +39,10 @@ nav>div>h2{
 
 p, button{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-p{
+    margin: 8px;
 }
 
 #main-wrapper{
@@ -83,12 +88,10 @@ p, button{
     padding: 10px;
 }
 
-#footer-main{
-
-}
 
 .port-pics{
     width: 330px;
+    margin-bottom: -4px;
 }
 
 .main-tech{
